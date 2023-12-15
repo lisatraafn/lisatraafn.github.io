@@ -11,8 +11,8 @@ img{
     margin-bottom:80px;
 }
 .logoContainer img{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 .portraitContainer div,
@@ -186,14 +186,46 @@ h1{
 
 /*header*/
 
-
+#normalHeader{
+    padding:50px;
+}
 
 #PortfolioButton,
 #aboutButton,
 #ContactHeaderButton{
     font-family: 'Urbanist', sans-serif;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: light;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+    border-radius: 0;
+}
+
+.logoContainer{
+    display:flex;
+    justify-content: center;
+}
+
+.headerbuttoncont{
+    display: inline-block;
+    width: 150px;
+    height:60px;
+    margin-top:20px;
+}
+
+#rowheader{
+    display:flex;
+    justify-content: center;
+}
+
+/*mobileheader*/
+#PortfolioButton2,
+#aboutButton2,
+#ContactHeaderButton2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: light;
     color: #000000;
     background-color: #FFFFFF;
     border-color:#FFFFFF;
