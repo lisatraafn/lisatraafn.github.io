@@ -1,0 +1,21 @@
+.logoContainer img
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.portraitContainer div,
+.aboutTextContainer div
+{
+    background-color: palevioletred;
+    width: 600px;
+    height: 400px;
+}
+
+.aboutFeatured1,
+.aboutFeatured2,
+.aboutFeatured3
+{
+    width: 200px;
+    height: 200px;
+}
