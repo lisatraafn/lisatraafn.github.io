@@ -1,21 +1,118 @@
-.logoContainer img
-{
+.pgcont{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.logoContainer img{
     max-width: 80px;
     max-height: 80px;
 }
 
 .portraitContainer div,
-.aboutTextContainer div
-{
-    background-color: palevioletred;
-    width: 600px;
-    height: 400px;
+.aboutTextContainer div{
+    max-width: 600px;
+    max-height: 400px;
 }
 
-.aboutFeatured1,
-.aboutFeatured2,
-.aboutFeatured3
-{
-    width: 200px;
-    height: 200px;
+img{
+    width:100%;
+}
+.introtext{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: light;
+    color: 00000;
+    text-align: left;
+}
+.featuredwrks{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: light;
+    color: 00000;
+    text-align: center;
+}
+
+#arrowdowndiv{
+    width: 20px;
+    margin:auto;
+}
+
+.space{
+    height:50px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+#aboutrow{
+    height: 700px;
+}
+
+.featcol{
+    aspect-ratio:1/1;
+    margin: 10px;
+}
+
+h2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #BF7DE2;
+}
+
+.footertext{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: light;
+    color: 000000;
+    margin:0;
+}
+
+.footertextbold{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: 000000;
+    margin:0;
+}
+
+
+#ContactButton{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #BF7DE2;
+    border-color:#BF7DE2;
+    border-radius: 0;
+    width: 250px;
+    height: 70px;
+    margin-top:20px;
+}
+
+.line{
+    border-bottom: 1px solid #000;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#services{
+    background-color:#f6f6f6;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+
+#footercontact{
+    padding:50px;
+    margin-bottom: 20px;
+}
+
+#footerinfo{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
